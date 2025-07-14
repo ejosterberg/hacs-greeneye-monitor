@@ -3,6 +3,7 @@
   "name": "GreenEye Monitor (GEM)",
   "codeowners": ["@jkeljo"],
   "config_flow": true,
+  "entry_point": "custom_components.greeneye_monitor",
   "dependencies": ["logbook"],
   "documentation": "https://github.com/jkeljo/hacs-greeneye-monitor",
   "integration_type": "hub",
